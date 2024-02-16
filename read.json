@@ -1,0 +1,18 @@
+{
+  "version": "2",
+  "sql": [
+    {
+      "schema": "schema.sql",
+      "queries": "read.sql",
+      "engine": "postgresql",
+      "gen": {
+        "go": {
+          "package": "querytest",
+          "out": "go",
+          "queries_name": "Read",
+          "output_db_file_name": "/dev/null"
+        }
+      }
+    }
+  ]
+}
